@@ -1,0 +1,15 @@
+{
+  "name": "funcaptcha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "minify": "uglifyjs -o script.min.js script.js",
+    "build": "npm run minify"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "uglify-js": "^3.6.0"
+  }
+}
